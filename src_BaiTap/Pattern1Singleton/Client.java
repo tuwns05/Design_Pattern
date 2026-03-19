@@ -8,8 +8,11 @@ public class Client {
 
 	        ps1.print("Document A");
 	        ps2.print("Trần Bảo Vệ");
-	     
+		if(ps1 == ps2){
+			System.out.println("chỉ có 1 object");
+		}
 
 	}
+
 
 }
