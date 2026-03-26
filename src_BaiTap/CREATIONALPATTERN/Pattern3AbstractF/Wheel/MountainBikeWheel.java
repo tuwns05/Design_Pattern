@@ -1,4 +1,4 @@
-package CREATIONALPATTERN.Pattern3AbstractF;
+package CREATIONALPATTERN.Pattern3AbstractF.Wheel;
 
 public class MountainBikeWheel implements Wheel {
         public void CreateWheel(){

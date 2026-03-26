@@ -53,6 +53,7 @@ public class BedroomBuilder  {
         return this;
     }
     public Bedroom build() {
+
         return new Bedroom(bedType,size,hasTV,hasAC,hasWindow,hasBalcony,color,numberOfLights);
     }
 

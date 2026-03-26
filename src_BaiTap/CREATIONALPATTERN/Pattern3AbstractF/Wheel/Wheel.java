@@ -1,4 +1,4 @@
-package CREATIONALPATTERN.Pattern3AbstractF;
+package CREATIONALPATTERN.Pattern3AbstractF.Wheel;
 
 public interface Wheel {
     void CreateWheel();

@@ -1,5 +1,11 @@
 package CREATIONALPATTERN.Pattern3AbstractF;
 
+import CREATIONALPATTERN.Pattern3AbstractF.BikeFactory.BikeFactory;
+import CREATIONALPATTERN.Pattern3AbstractF.BikeFactory.MoutainFactory;
+import CREATIONALPATTERN.Pattern3AbstractF.BikeFactory.RoadBikeFactory;
+import CREATIONALPATTERN.Pattern3AbstractF.Saddle.Saddle;
+import CREATIONALPATTERN.Pattern3AbstractF.Wheel.Wheel;
+
 public class Client {
     public static void main(String[] args){
         BikeFactory factory1 = new MoutainFactory();

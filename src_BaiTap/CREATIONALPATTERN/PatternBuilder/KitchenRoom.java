@@ -11,6 +11,7 @@ public class KitchenRoom extends Room{
 
     @Override
     public String toString() {
+
         return "Living Room : "+size+" --- "+color+" ---"+hasRiceCooker+" ";
     }
 }
