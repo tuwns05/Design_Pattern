@@ -1,9 +1,9 @@
 package STRUCTURALPATTERN.CompositePattern.TreePayee;
 
-public class Maneger implements Payee{
+public class Manager implements Payee{
     private String name;
 
-    public Maneger(String name) {
+    public Manager(String name) {
         this.name = name;
     }
 

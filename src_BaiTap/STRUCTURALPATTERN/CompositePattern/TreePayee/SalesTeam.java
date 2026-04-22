@@ -4,17 +4,17 @@ import java.util.List;
 
 public class SalesTeam implements Payee{
 
-    private List<Maneger> manegers;
+    private List<Manager> managers;
     private List<Salespersons> salespersons;
 
-    public SalesTeam(List<Maneger> manegers, List<Salespersons> salespersons) {
-        this.manegers = manegers;
+    public SalesTeam(List<Manager> managers, List<Salespersons> salespersons) {
+        this.managers = managers;
         this.salespersons = salespersons;
     }
 
     @Override
     public void payExpenses(int amount) {
-        for(Maneger m : manegers){
+        for(Manager m : managers){
             m.payExpenses(amount);
         }
 

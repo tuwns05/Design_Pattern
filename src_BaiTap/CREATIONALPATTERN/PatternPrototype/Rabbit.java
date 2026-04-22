@@ -11,10 +11,14 @@ public class Rabbit implements Prototype,Cloneable{
         this.age = age;
     }
 
-//    private Rabbit(Rabbit other){
-//        this.name = other.name;
-//        this.age = other.age;
-//    }
+    public Rabbit() {
+
+    }
+
+    private Rabbit(Rabbit other){
+        this.owner= owner;
+        this.age = other.age;
+    }
 
 
     public Person getOwner() {
@@ -23,13 +27,11 @@ public class Rabbit implements Prototype,Cloneable{
 
     @Override
     public Rabbit clone() {
-        try {
-            Rabbit rb =  (Rabbit) super.clone();
+
+            Rabbit rb =  new Rabbit(this);
             rb.owner = owner.clone();
             return rb;
-        } catch (CloneNotSupportedException e) {
-            throw new RuntimeException(e);
-        }
+
 
     }
 
