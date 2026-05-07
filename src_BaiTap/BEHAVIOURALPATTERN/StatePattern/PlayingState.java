@@ -10,6 +10,5 @@ public class PlayingState implements State{
     public void pause(MediaPlayer player) {
         System.out.println("Pausing music...");
         player.setState(new PausedState());
-        player.setIcon("▶️"); // chuyển sang play icon
     }
 }

@@ -10,6 +10,7 @@ public class Client {
         System.out.println("Before observing:");
         feed.showFeed();
 
+        //Set theo dõi
         alice.attach(feed);
         bob.attach(feed);
 

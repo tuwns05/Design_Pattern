@@ -1,6 +1,6 @@
 package BEHAVIOURALPATTERN.CommandPattern;
 
-public class Client {
+public class GUI {
     public static void main(String[] args) {
         Document document = new Document();
 
